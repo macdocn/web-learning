@@ -1,0 +1,14 @@
+- 错误代码：```IndentationError: expected an indented block```
+错误原因：Python语言是一款对缩进非常敏感的语言：
+```
+if xxxxxx：
+（空格）xxxxx
+或者
+def xxxxxx：
+（空格）xxxxx
+还有
+for xxxxxx：
+（空格）xxxxx
+一句话有冒号的下一行往往要缩进，该缩进就缩进
+```
+
